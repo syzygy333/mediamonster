@@ -25,20 +25,20 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^2",
         "cweagans/composer-patches": "^1.7",
         "drupal-composer/preserve-paths": "^0.1.4",
-        "drupal/admin_toolbar": "^3.0",
+        "drupal/admin_toolbar": "^3",
         "drupal/coder": "^8.3",
-        "drupal/config_split": "^1.5",
+        "drupal/config_split": "^2",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9",
-        "drupal/devel": "^4.0",
-        "drupal/seckit": "^2.0",
-        "drush/drush": "^11.0",
-        "oomphinc/composer-installers-extender": "^1.1 || ^2"
+        "drupal/devel": "^4",
+        "drupal/seckit": "^2",
+        "drush/drush": "^11",
+        "oomphinc/composer-installers-extender": "^2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
