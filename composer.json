@@ -37,12 +37,13 @@
         "drupal/core-vendor-hardening": "^9",
         "drupal/devel": "^4.0",
         "drupal/seckit": "^2.0",
-        "drush/drush": "^10.0",
+        "drush/drush": "^11.0",
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
+        "process-timeout": 0,
         "sort-packages": true,
         "allow-plugins": {
             "cweagans/composer-patches": true,
@@ -71,18 +72,31 @@
         ]
     },
     "extra": {
-        "installer-types": ["bower-asset", "npm-asset"],
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
+            "web/core": [
+                "type:drupal-core"
+            ],
             "web/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
             ],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
         },
         "patches": {},
         "preserve-paths": [],
