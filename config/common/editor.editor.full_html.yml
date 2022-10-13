@@ -1,56 +1,59 @@
-uuid: e0458fe6-c81b-42c4-b96f-61b7ea275ece
+uuid: 98a0f359-eb3e-4e21-a556-d6e360553a6e
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.full_html
   module:
-    - ckeditor
-_core:
-  default_config_hash: wAnz2zfSYzdcolupgqQxXhngIscFdA_Y53q7FcwXpU0
+    - ckeditor5
 format: full_html
-editor: ckeditor
+editor: ckeditor5
 settings:
   toolbar:
-    rows:
-      -
-        -
-          name: Formatting
-          items:
-            - Bold
-            - Italic
-            - Strike
-            - Superscript
-            - Subscript
-            - '-'
-            - RemoveFormat
-        -
-          name: Linking
-          items:
-            - DrupalLink
-            - DrupalUnlink
-        -
-          name: Lists
-          items:
-            - BulletedList
-            - NumberedList
-        -
-          name: Media
-          items:
-            - Blockquote
-            - DrupalImage
-            - Table
-            - HorizontalRule
-        -
-          name: 'Block Formatting'
-          items:
-            - Format
-        -
-          name: Tools
-          items:
-            - ShowBlocks
-            - Source
-  plugins: {  }
+    items:
+      - heading
+      - alignment
+      - bold
+      - italic
+      - link
+      - removeFormat
+      - '|'
+      - drupalMedia
+      - '|'
+      - '-'
+      - bulletedList
+      - numberedList
+      - '|'
+      - insertTable
+      - blockQuote
+      - '|'
+      - code
+      - codeBlock
+      - '|'
+      - sourceEditing
+      - undo
+      - redo
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    ckeditor5_list:
+      reversed: true
+      startIndex: true
+    ckeditor5_alignment:
+      enabled_alignments:
+        - left
+        - center
+        - right
+        - justify
+    media_media:
+      allow_view_mode_override: false
 image_upload:
   status: true
   scheme: public
