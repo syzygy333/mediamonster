@@ -1,0 +1,15 @@
+uuid: 57f3bd88-5a3c-4cc4-b38c-c2935729ad7d
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_21_9_2800w
+label: responsive_21_9_2800w
+effects:
+  b5d82630-6749-4fab-89b7-c0c730531e02:
+    uuid: b5d82630-6749-4fab-89b7-c0c730531e02
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 2800
+      height: 1200
+      anchor: center-center

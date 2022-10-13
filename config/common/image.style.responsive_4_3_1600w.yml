@@ -1,0 +1,15 @@
+uuid: ca425e73-84d2-4461-b6e6-17a01ff27f8a
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_4_3_1600w
+label: responsive_4_3_1600w
+effects:
+  e87fc70b-5298-40bf-8b7e-956a9aa82356:
+    uuid: e87fc70b-5298-40bf-8b7e-956a9aa82356
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 1600
+      height: 1200
+      anchor: center-center

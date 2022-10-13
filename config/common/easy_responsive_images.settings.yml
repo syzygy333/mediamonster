@@ -1,0 +1,7 @@
+threshold_width: '400'
+minimum_width: '400'
+maximum_width: '3000'
+aspect_ratios: "21:9\r\n16:9\r\n8:5\r\n4:3\r\n3:2\r\n1:1"
+threshold_height: ''
+minimum_height: ''
+maximum_height: ''

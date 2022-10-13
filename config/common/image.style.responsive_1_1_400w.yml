@@ -1,0 +1,15 @@
+uuid: d0782ec1-d8e1-40d7-b364-72056b9e4941
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_1_1_400w
+label: responsive_1_1_400w
+effects:
+  997eed8c-b720-4ca8-bc69-8827e50c701e:
+    uuid: 997eed8c-b720-4ca8-bc69-8827e50c701e
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 400
+      height: 400
+      anchor: center-center

@@ -1,0 +1,15 @@
+uuid: afbf5f18-3e5f-4324-bdb3-9dafb97ce187
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_4_3_2400w
+label: responsive_4_3_2400w
+effects:
+  4b0dc8c3-8dec-4999-93e2-8d7ae1a538fb:
+    uuid: 4b0dc8c3-8dec-4999-93e2-8d7ae1a538fb
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 2400
+      height: 1800
+      anchor: center-center

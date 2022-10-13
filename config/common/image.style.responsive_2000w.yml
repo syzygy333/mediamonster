@@ -1,0 +1,15 @@
+uuid: 676a79e0-3d64-43ac-80eb-8d8861167ea1
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_2000w
+label: responsive_2000w
+effects:
+  1ae1adce-82e7-4dcf-8a84-f62e090d1d86:
+    uuid: 1ae1adce-82e7-4dcf-8a84-f62e090d1d86
+    id: image_scale
+    weight: null
+    data:
+      width: 2000
+      height: null
+      upscale: true
