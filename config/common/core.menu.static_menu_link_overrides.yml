@@ -302,11 +302,11 @@ definitions:
     weight: 0
     expanded: false
   system__admin_config_services:
-    enabled: false
+    weight: 10
     menu_name: admin
     parent: system.admin_config
-    weight: 0
     expanded: false
+    enabled: false
   system__rss_feeds_settings:
     enabled: false
     menu_name: admin
@@ -314,8 +314,350 @@ definitions:
     weight: 0
     expanded: false
   system__admin_config_workflow:
-    enabled: false
+    weight: 11
     menu_name: admin
     parent: system.admin_config
-    weight: 5
     expanded: false
+    enabled: false
+  'admin_toolbar_tools__extra_links:entity__node_type__devel_load__page':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
+    expanded: false
+    weight: 4
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__audio':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
+    weight: 4
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__document':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
+    weight: 4
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__image':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
+    weight: 4
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__remote_video':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
+    weight: 4
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__video':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
+    weight: 4
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__admin':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.admin'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__devel':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.devel'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__footer':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.footer'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__main':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.main'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__tools':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.tools'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__account':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.account'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__devel_load__tags':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
+    weight: 4
+    expanded: false
+  'admin_toolbar_tools__extra_links:config__import':
+    enabled: false
+    menu_name: admin
+    parent: config.sync
+    weight: 1
+    expanded: false
+  'admin_toolbar_tools__extra_links:config__export':
+    enabled: false
+    menu_name: admin
+    parent: config.sync
+    weight: 2
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__anonymous':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.anonymous'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__authenticated':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.authenticated'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__content_editor':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.content_editor'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__administrator':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.administrator'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__node_type__devel_load__article':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
+    expanded: false
+    weight: 4
+  system__admin_content:
+    weight: -99
+    menu_name: admin
+    parent: system.admin
+    enabled: true
+    expanded: false
+  system__admin_structure:
+    weight: -98
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  system__themes_page:
+    weight: -97
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  system__modules_list:
+    weight: -96
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  system__admin_config:
+    weight: -94
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  entity__user__collection:
+    weight: -95
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  system__admin_reports:
+    weight: -93
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  help__main:
+    weight: -92
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  user__admin_index:
+    weight: 7
+    menu_name: admin
+    parent: system.admin_config
+    enabled: true
+    expanded: false
+  system__admin_config_system:
+    weight: 3
+    menu_name: admin
+    parent: system.admin_config
+    expanded: false
+    enabled: true
+  system__cron_settings:
+    weight: -19
+    menu_name: admin
+    parent: system.admin_config_system
+    expanded: false
+    enabled: true
+  system__admin_config_content:
+    weight: 6
+    menu_name: admin
+    parent: system.admin_config
+    expanded: false
+    enabled: true
+  system__admin_config_ui:
+    weight: -17
+    parent: system.admin_config_system
+    menu_name: admin
+    expanded: false
+    enabled: true
+  system__admin_config_development:
+    weight: 2
+    menu_name: admin
+    parent: system.admin_config
+    expanded: false
+    enabled: true
+  system__logging_settings:
+    weight: 2
+    menu_name: admin
+    parent: system.admin_config_development
+    expanded: false
+    enabled: true
+  system__site_maintenance_mode:
+    weight: 3
+    menu_name: admin
+    parent: system.admin_config_development
+    expanded: false
+    enabled: true
+  entity__config_split__collection:
+    parent: system.admin_config_development
+    menu_name: admin
+    enabled: true
+    expanded: false
+    weight: 0
+  config__sync:
+    weight: 1
+    parent: system.admin_config
+    menu_name: admin
+    expanded: false
+    enabled: true
+  devel_generate__generate:
+    weight: 5
+    menu_name: admin
+    parent: system.admin_config_development
+    expanded: false
+    enabled: true
+  devel__admin_settings:
+    weight: 4
+    menu_name: admin
+    parent: system.admin_config_development
+    expanded: false
+    enabled: true
+  system__admin_config_media:
+    weight: 4
+    menu_name: admin
+    parent: system.admin_config
+    expanded: false
+    enabled: true
+  system__admin_config_search:
+    weight: 8
+    menu_name: admin
+    parent: system.admin_config
+    expanded: false
+    enabled: true
+  devel_generate__admin_config_generate:
+    weight: 6
+    menu_name: admin
+    parent: system.admin_config_development
+    expanded: false
+    enabled: false
+  devel_generate__content:
+    weight: -15
+    parent: devel_generate.generate
+    menu_name: admin
+    expanded: false
+    enabled: true
+  devel_generate__media:
+    weight: -14
+    parent: devel_generate.generate
+    menu_name: admin
+    expanded: false
+    enabled: true
+  devel_generate__menu:
+    weight: -13
+    parent: devel_generate.generate
+    menu_name: admin
+    expanded: false
+    enabled: true
+  devel_generate__term:
+    weight: -12
+    parent: devel_generate.generate
+    menu_name: admin
+    expanded: false
+    enabled: true
+  devel_generate__user:
+    weight: -11
+    parent: devel_generate.generate
+    menu_name: admin
+    expanded: false
+    enabled: true
+  devel_generate__vocabulary:
+    weight: -10
+    parent: devel_generate.generate
+    menu_name: admin
+    expanded: false
+    enabled: true
+  system__admin_config_regional:
+    weight: -18
+    parent: system.admin_config_system
+    menu_name: admin
+    expanded: false
+    enabled: true
+  crop__overview_types:
+    weight: 6
+    menu_name: admin
+    parent: system.admin_config_media
+    enabled: true
+    expanded: false
+  system__file_system_settings:
+    weight: 2
+    menu_name: admin
+    parent: system.admin_config_media
+    expanded: false
+    enabled: true
+  entity__imageapi_optimize_pipeline__collection:
+    weight: 4
+    menu_name: admin
+    parent: system.admin_config_media
+    expanded: false
+    enabled: true
+  entity__image_style__collection:
+    weight: 5
+    menu_name: admin
+    parent: system.admin_config_media
+    expanded: false
+    enabled: true
+  media_library__settings:
+    weight: 1
+    menu_name: admin
+    parent: system.admin_config_media
+    expanded: false
+    enabled: true
+  system__image_toolkit_settings:
+    weight: 3
+    menu_name: admin
+    parent: system.admin_config_media
+    expanded: false
+    enabled: true
+  system__performance_settings:
+    weight: 1
+    menu_name: admin
+    parent: system.admin_config_development
+    expanded: false
+    enabled: true
