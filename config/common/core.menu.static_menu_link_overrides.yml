@@ -458,19 +458,19 @@ definitions:
     expanded: false
     enabled: true
   system__modules_list:
-    weight: -96
-    menu_name: admin
-    parent: system.admin
-    expanded: false
-    enabled: true
-  system__admin_config:
     weight: -94
     menu_name: admin
     parent: system.admin
     expanded: false
     enabled: true
-  entity__user__collection:
+  system__admin_config:
     weight: -95
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  entity__user__collection:
+    weight: -96
     menu_name: admin
     parent: system.admin
     expanded: false
@@ -479,8 +479,8 @@ definitions:
     weight: -93
     menu_name: admin
     parent: system.admin
-    expanded: false
     enabled: true
+    expanded: false
   help__main:
     weight: -92
     menu_name: admin
@@ -661,3 +661,57 @@ definitions:
     parent: system.admin_config_development
     expanded: false
     enabled: true
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__admin':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.admin'
+    expanded: false
+    weight: 0
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__devel':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.devel'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__footer':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.footer'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__main':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.main'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__tools':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.tools'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__account':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.account'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:system__theme_settings_theme__claro':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:system.theme_settings'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:system__theme_settings_theme__olivero':
+    enabled: false
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:system.theme_settings'
+    weight: 0
+    expanded: false
+  'admin_toolbar_tools__extra_links:views_ui__field_list':
+    enabled: false
+    menu_name: admin
+    parent: entity.field_storage_config.collection
+    weight: 0
+    expanded: false
