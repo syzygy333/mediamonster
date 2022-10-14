@@ -1,15 +1,24 @@
 uuid: 617f199f-144c-4892-b1da-47066f12b75e
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - focal_point
 name: responsive_1_1_2400w
 label: responsive_1_1_2400w
 effects:
-  1beffdf3-953a-49a8-a14f-53f595b513c6:
-    uuid: 1beffdf3-953a-49a8-a14f-53f595b513c6
-    id: image_scale_and_crop
-    weight: null
+  31bf53c1-f563-4101-b438-9a065f9701dc:
+    uuid: 31bf53c1-f563-4101-b438-9a065f9701dc
+    id: focal_point_scale_and_crop
+    weight: 2
     data:
       width: 2400
       height: 2400
-      anchor: center-center
+      crop_type: focal_point
+  a2f70adf-7b08-443b-932a-2a09096cfc99:
+    uuid: a2f70adf-7b08-443b-932a-2a09096cfc99
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: gd_75

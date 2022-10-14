@@ -8,8 +8,15 @@ effects:
   6f7362fe-5f1c-47f0-a223-ff371fecfb17:
     uuid: 6f7362fe-5f1c-47f0-a223-ff371fecfb17
     id: image_scale
-    weight: null
+    weight: -10
     data:
       width: 1600
       height: null
       upscale: true
+  b342a190-a448-4aae-af54-51843ad358fb:
+    uuid: b342a190-a448-4aae-af54-51843ad358fb
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: ''

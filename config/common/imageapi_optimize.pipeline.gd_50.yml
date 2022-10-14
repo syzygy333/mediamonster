@@ -1,0 +1,18 @@
+uuid: 322cf33f-4677-4358-a33e-5a59d987060e
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_gd
+name: gd_50
+label: 'GD 50'
+processors:
+  68e44bb3-4054-4fbb-9ca0-3ac405e029bd:
+    id: imageapi_optimize_gd
+    data:
+      quality: '50'
+      file_types:
+        image/jpeg: image/jpeg
+        image/webp: image/webp
+    weight: 1
+    uuid: 68e44bb3-4054-4fbb-9ca0-3ac405e029bd

@@ -8,8 +8,15 @@ effects:
   28713595-0168-438f-b765-b173fdb93995:
     uuid: 28713595-0168-438f-b765-b173fdb93995
     id: image_scale
-    weight: null
+    weight: -10
     data:
       width: 1200
       height: null
       upscale: true
+  25d5efab-ff9c-48a5-9c2b-eec043619a87:
+    uuid: 25d5efab-ff9c-48a5-9c2b-eec043619a87
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: ''

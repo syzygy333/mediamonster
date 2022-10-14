@@ -1,0 +1,22 @@
+uuid: c569be1c-5114-4562-b14f-fdfd829d2dd9
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_3200w
+label: responsive_3200w
+effects:
+  40501307-4560-4a97-9229-4dbd8648d7f3:
+    uuid: 40501307-4560-4a97-9229-4dbd8648d7f3
+    id: image_scale
+    weight: 1
+    data:
+      width: 3200
+      height: null
+      upscale: true
+  231c3289-a8dd-4ec8-a914-0858cffbcc47:
+    uuid: 231c3289-a8dd-4ec8-a914-0858cffbcc47
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: gd_50

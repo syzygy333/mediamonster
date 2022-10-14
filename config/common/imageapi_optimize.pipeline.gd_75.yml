@@ -1,0 +1,18 @@
+uuid: fa54734c-5272-46ac-87fb-a62667c944db
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_gd
+name: gd_75
+label: 'GD 75'
+processors:
+  b19e545c-eca9-43ca-bd33-a0596284fdce:
+    id: imageapi_optimize_gd
+    data:
+      quality: '75'
+      file_types:
+        image/jpeg: image/jpeg
+        image/webp: image/webp
+    weight: 1
+    uuid: b19e545c-eca9-43ca-bd33-a0596284fdce
