@@ -446,43 +446,43 @@ definitions:
     enabled: true
     expanded: false
   system__admin_structure:
-    weight: -98
-    menu_name: admin
-    parent: system.admin
-    expanded: false
-    enabled: true
-  system__themes_page:
     weight: -97
     menu_name: admin
     parent: system.admin
     expanded: false
     enabled: true
-  system__modules_list:
-    weight: -95
-    menu_name: admin
-    parent: system.admin
-    expanded: false
-    enabled: true
-  system__admin_config:
-    weight: -94
-    menu_name: admin
-    parent: system.admin
-    enabled: true
-    expanded: false
-  entity__user__collection:
+  system__themes_page:
     weight: -96
     menu_name: admin
     parent: system.admin
     expanded: false
     enabled: true
-  system__admin_reports:
+  system__modules_list:
+    weight: -94
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  system__admin_config:
     weight: -93
     menu_name: admin
     parent: system.admin
     expanded: false
     enabled: true
-  help__main:
+  entity__user__collection:
+    weight: -95
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  system__admin_reports:
     weight: -92
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    enabled: true
+  help__main:
+    weight: -91
     menu_name: admin
     parent: system.admin
     expanded: false
@@ -755,5 +755,77 @@ definitions:
     weight: 3
     menu_name: admin
     parent: system.admin_structure
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:view__files':
+    weight: 3
+    menu_name: admin
+    parent: system.admin_content
+    expanded: false
+    enabled: false
+  'admin_toolbar_tools__extra_links:media_library':
+    weight: 7
+    parent: system.admin_content
+    menu_name: admin
+    expanded: false
+    enabled: false
+  'admin_toolbar_tools__extra_links:media_page':
+    weight: 6
+    parent: system.admin_content
+    menu_name: admin
+    expanded: false
+    enabled: false
+  'admin_toolbar_tools__extra_links:add_media':
+    weight: 4
+    parent: system.admin_content
+    enabled: true
+    menu_name: admin
+    expanded: false
+  'admin_toolbar_tools__extra_links:node__add':
+    enabled: true
+    menu_name: admin
+    parent: system.admin_content
+    weight: 2
+    expanded: false
+  'admin_toolbar_tools__extra_links:node__add__article':
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    menu_name: admin
+    enabled: true
+    expanded: false
+    weight: 0
+  'admin_toolbar_tools__extra_links:node__add__page':
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    menu_name: admin
+    weight: 1
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__audio':
+    weight: 6
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    menu_name: admin
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__document':
+    weight: 7
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    menu_name: admin
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__image':
+    weight: 8
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    menu_name: admin
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__remote_video':
+    weight: 9
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    menu_name: admin
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__video':
+    weight: 10
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    menu_name: admin
     expanded: false
     enabled: true
