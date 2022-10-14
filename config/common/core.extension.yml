@@ -10,6 +10,7 @@ module:
   breakpoint: 0
   ckeditor: 0
   ckeditor5: 0
+  coffee: 0
   config: 0
   config_split: 0
   contextual: 0

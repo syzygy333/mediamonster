@@ -458,17 +458,17 @@ definitions:
     expanded: false
     enabled: true
   system__modules_list:
-    weight: -94
-    menu_name: admin
-    parent: system.admin
-    expanded: false
-    enabled: true
-  system__admin_config:
     weight: -95
     menu_name: admin
     parent: system.admin
     expanded: false
     enabled: true
+  system__admin_config:
+    weight: -94
+    menu_name: admin
+    parent: system.admin
+    enabled: true
+    expanded: false
   entity__user__collection:
     weight: -96
     menu_name: admin
@@ -479,8 +479,8 @@ definitions:
     weight: -93
     menu_name: admin
     parent: system.admin
-    enabled: true
     expanded: false
+    enabled: true
   help__main:
     weight: -92
     menu_name: admin
@@ -715,3 +715,45 @@ definitions:
     parent: entity.field_storage_config.collection
     weight: 0
     expanded: false
+  'admin_toolbar_tools__extra_links:entity__block_content_type__edit_form__basic':
+    parent: 'admin_toolbar_tools.extra_links:entity.block_content.collection'
+    menu_name: admin
+    enabled: true
+    expanded: false
+    weight: 0
+  entity__node_type__collection:
+    weight: 1
+    menu_name: admin
+    parent: system.admin_structure
+    enabled: true
+    expanded: false
+  field_ui__display_mode:
+    weight: 6
+    menu_name: admin
+    parent: system.admin_structure
+    expanded: false
+    enabled: true
+  entity__media_type__collection:
+    weight: 2
+    menu_name: admin
+    parent: system.admin_structure
+    expanded: false
+    enabled: true
+  entity__menu__collection:
+    weight: 5
+    menu_name: admin
+    parent: system.admin_structure
+    expanded: false
+    enabled: true
+  entity__taxonomy_vocabulary__collection:
+    weight: 4
+    menu_name: admin
+    parent: system.admin_structure
+    expanded: false
+    enabled: true
+  entity__view__collection:
+    weight: 3
+    menu_name: admin
+    parent: system.admin_structure
+    expanded: false
+    enabled: true
