@@ -1,0 +1,16 @@
+uuid: 679556ec-94f8-46d4-8a03-b3a1aa9d22b2
+langcode: en
+status: true
+dependencies: {  }
+id: images
+label: Images
+media_types:
+  image: image
+  audio: 0
+  document: 0
+  remote_video: 0
+  video: 0
+form_mode: media_library
+upload_location: 'temporary://'
+show_alt: null
+show_title: null
