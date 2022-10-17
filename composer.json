@@ -48,6 +48,19 @@
         "drush/drush": "^11",
         "oomphinc/composer-installers-extender": "^2"
     },
+    "require-dev": {
+        "jangregor/phpstan-prophecy": "^1.0",
+        "mglaman/phpstan-drupal": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.8",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.1",
+        "phpstan/phpstan-strict-rules": "^1.3",
+        "phpunit/phpunit": "^8",
+        "sensiolabs/security-checker": "^6.0",
+        "slevomat/coding-standard": "^8.1",
+        "symfony/phpunit-bridge": "^5.1"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
@@ -113,18 +126,5 @@
                 "web-root": "web"
             }
         }
-    },
-    "require-dev": {
-        "jangregor/phpstan-prophecy": "^1.0",
-        "mglaman/phpstan-drupal": "^1.1",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan": "^1.8",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.1",
-        "phpstan/phpstan-strict-rules": "^1.3",
-        "phpunit/phpunit": "^8",
-        "sensiolabs/security-checker": "^6.0",
-        "slevomat/coding-standard": "^8.1",
-        "symfony/phpunit-bridge": "^5.1"
     }
 }
