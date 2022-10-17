@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_form_mode.media.media_library
     - field.field.media.image.field_media_image
+    - field.field.media.image.field_tag
     - image.style.responsive_400w
     - media.type.image
   module:
@@ -33,9 +34,26 @@ content:
       preview_link: true
       offsets: '50,50'
     third_party_settings: {  }
+  field_tag:
+    type: entity_reference_autocomplete_tags
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
-  name: true
   path: true
   status: true
   uid: true

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
+    - field.field.media.image.field_tag
     - media.type.image
   module:
     - easy_responsive_images
@@ -34,8 +35,16 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  name:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
-  name: true
+  field_tag: true
   thumbnail: true
   uid: true
