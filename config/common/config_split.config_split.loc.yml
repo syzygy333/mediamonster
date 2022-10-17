@@ -1,0 +1,17 @@
+uuid: 7aae17f9-b15a-420b-a733-bd64a26216a3
+langcode: en
+status: false
+dependencies: {  }
+id: loc
+label: loc
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/loc
+module:
+  devel: 0
+  devel_generate: 0
+theme: {  }
+complete_list: {  }
+partial_list: {  }

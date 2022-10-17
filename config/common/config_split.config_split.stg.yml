@@ -1,0 +1,15 @@
+uuid: fc9eca70-5852-4cf0-a292-0d7e6abaca91
+langcode: en
+status: false
+dependencies: {  }
+id: stg
+label: stg
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/stg
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

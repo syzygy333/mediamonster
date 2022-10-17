@@ -1,0 +1,15 @@
+uuid: 161ab8cd-8e3e-4712-9192-24256be60499
+langcode: en
+status: false
+dependencies: {  }
+id: uat
+label: uat
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/uat
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

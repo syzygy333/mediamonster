@@ -1,0 +1,15 @@
+uuid: 11ab0ca3-b909-411d-88e8-6bed842ed2c0
+langcode: en
+status: false
+dependencies: {  }
+id: prd
+label: prd
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/prd
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
