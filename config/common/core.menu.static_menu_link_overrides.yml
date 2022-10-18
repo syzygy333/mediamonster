@@ -8,854 +8,854 @@ definitions:
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:entity__node__field_ui_fieldsarticle':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__node__defaultarticle':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
     weight: 2
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_view_display__node__default__article':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__node__default__article':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
     weight: 3
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__node_type__delete_form__article':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__node__field_ui_fieldspage':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__node__defaultpage':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
     weight: 2
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_view_display__node__default__page':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__node__default__page':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
     weight: 3
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__node_type__delete_form__page':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media__field_ui_fieldsaudio':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__media__defaultaudio':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
     weight: 2
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_view_display__media__default__audio':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__media__default__audio':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
     weight: 3
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media_type__delete_form__audio':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media__field_ui_fieldsdocument':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__media__defaultdocument':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
     weight: 2
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_view_display__media__default__document':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__media__default__document':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
     weight: 3
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media_type__delete_form__document':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media__field_ui_fieldsimage':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__media__defaultimage':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
     weight: 2
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_view_display__media__default__image':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__media__default__image':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
     weight: 3
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media_type__delete_form__image':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media__field_ui_fieldsremote_video':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__media__defaultremote_video':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
     weight: 2
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_view_display__media__default__remote_video':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__media__default__remote_video':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
     weight: 3
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media_type__delete_form__remote_video':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__media__field_ui_fieldsvideo':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
     weight: 1
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_form_display__media__defaultvideo':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
     weight: 2
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__entity_view_display__media__default__video':
     enabled: true
+  'admin_toolbar_tools__extra_links:entity__entity_view_display__media__default__video':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__media__default__video':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
     weight: 3
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__media_type__delete_form__video':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__media_type__delete_form__video':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
     weight: 5
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__edit_form__tags':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__edit_form__tags':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__taxonomy_term__field_ui_fieldstags':
-    enabled: true
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 1
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__entity_form_display__taxonomy_term__defaulttags':
     enabled: true
+  'admin_toolbar_tools__extra_links:entity__entity_form_display__taxonomy_term__defaulttags':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 2
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__entity_view_display__taxonomy_term__default__tags':
     enabled: true
+  'admin_toolbar_tools__extra_links:entity__entity_view_display__taxonomy_term__default__tags':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 3
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__taxonomy_term__default__tags':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 3
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__delete_form__tags':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__delete_form__tags':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 5
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__archive':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__glossary':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__user_admin_people':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__content_recent':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__taxonomy_term':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__watchdog':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__who_s_new':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:views_ui__who_s_online':
-    enabled: false
     menu_name: admin
     parent: entity.view.collection
     weight: 0
     expanded: false
+    enabled: false
   system__admin_config_services:
-    weight: 10
     menu_name: admin
     parent: system.admin_config
+    weight: 10
     expanded: false
     enabled: false
   system__rss_feeds_settings:
-    enabled: false
     menu_name: admin
     parent: system.admin_config_services
     weight: 0
     expanded: false
+    enabled: false
   system__admin_config_workflow:
-    weight: 11
     menu_name: admin
     parent: system.admin_config
+    weight: 11
     expanded: false
     enabled: false
   'admin_toolbar_tools__extra_links:entity__node_type__devel_load__page':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.page'
-    expanded: false
     weight: 4
-  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__audio':
+    expanded: false
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__audio':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.audio'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__document':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__document':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.document'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__image':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__image':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.image'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__remote_video':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__remote_video':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.remote_video'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__video':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__media_type__devel_load__video':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.media_type.edit_form.video'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__devel_load__admin':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__admin':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.admin'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__devel_load__devel':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__devel':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.devel'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__devel_load__footer':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__footer':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.footer'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__devel_load__main':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__main':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.main'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__devel_load__tools':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__tools':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.tools'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__devel_load__account':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__devel_load__account':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.account'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__devel_load__tags':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__taxonomy_vocabulary__devel_load__tags':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.taxonomy_vocabulary.overview_form.tags'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:config__import':
     enabled: false
+  'admin_toolbar_tools__extra_links:config__import':
     menu_name: admin
     parent: config.sync
     weight: 1
     expanded: false
-  'admin_toolbar_tools__extra_links:config__export':
     enabled: false
+  'admin_toolbar_tools__extra_links:config__export':
     menu_name: admin
     parent: config.sync
     weight: 2
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__anonymous':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__anonymous':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.anonymous'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__authenticated':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__authenticated':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.authenticated'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__content_editor':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__content_editor':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.content_editor'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__administrator':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__user_role__devel_load__administrator':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.user_role.edit_form.administrator'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__node_type__devel_load__article':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__node_type__devel_load__article':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.node_type.edit_form.article'
-    expanded: false
     weight: 4
-  system__admin_content:
-    weight: -99
-    menu_name: admin
-    parent: system.admin
-    enabled: true
     expanded: false
-  system__admin_structure:
-    weight: -97
+    enabled: false
+  system__admin_content:
     menu_name: admin
     parent: system.admin
+    weight: -99
+    expanded: false
+    enabled: true
+  system__admin_structure:
+    menu_name: admin
+    parent: system.admin
+    weight: -97
     expanded: false
     enabled: true
   system__themes_page:
-    weight: -96
     menu_name: admin
     parent: system.admin
+    weight: -96
     expanded: false
     enabled: true
   system__modules_list:
-    weight: -94
     menu_name: admin
     parent: system.admin
+    weight: -94
     expanded: false
     enabled: true
   system__admin_config:
-    weight: -93
     menu_name: admin
     parent: system.admin
+    weight: -93
     expanded: false
     enabled: true
   entity__user__collection:
-    weight: -95
     menu_name: admin
     parent: system.admin
+    weight: -95
     expanded: false
     enabled: true
   system__admin_reports:
-    weight: -92
     menu_name: admin
     parent: system.admin
+    weight: -92
     expanded: false
     enabled: true
   help__main:
-    weight: -91
     menu_name: admin
     parent: system.admin
+    weight: -91
     expanded: false
     enabled: true
   user__admin_index:
+    menu_name: admin
+    parent: system.admin_config
     weight: 7
-    menu_name: admin
-    parent: system.admin_config
-    enabled: true
     expanded: false
+    enabled: true
   system__admin_config_system:
-    weight: 3
     menu_name: admin
     parent: system.admin_config
+    weight: 3
     expanded: false
     enabled: true
   system__cron_settings:
-    weight: -19
     menu_name: admin
     parent: system.admin_config_system
+    weight: -19
     expanded: false
     enabled: true
   system__admin_config_content:
-    weight: 6
     menu_name: admin
     parent: system.admin_config
+    weight: 6
     expanded: false
     enabled: true
   system__admin_config_ui:
-    weight: -17
-    parent: system.admin_config_system
     menu_name: admin
+    parent: system.admin_config_system
+    weight: -17
     expanded: false
     enabled: true
   system__admin_config_development:
-    weight: 2
     menu_name: admin
     parent: system.admin_config
+    weight: 2
     expanded: false
     enabled: true
   system__logging_settings:
-    weight: 2
     menu_name: admin
     parent: system.admin_config_development
+    weight: 2
     expanded: false
     enabled: true
   system__site_maintenance_mode:
-    weight: 3
     menu_name: admin
     parent: system.admin_config_development
+    weight: 3
     expanded: false
     enabled: true
   entity__config_split__collection:
+    menu_name: admin
     parent: system.admin_config_development
-    menu_name: admin
-    enabled: true
-    expanded: false
     weight: 0
+    expanded: false
+    enabled: true
   config__sync:
-    weight: 1
-    parent: system.admin_config
     menu_name: admin
+    parent: system.admin_config
+    weight: 1
     expanded: false
     enabled: true
   devel_generate__generate:
-    weight: 5
     menu_name: admin
     parent: system.admin_config_development
+    weight: 5
     expanded: false
     enabled: true
   devel__admin_settings:
-    weight: 4
     menu_name: admin
     parent: system.admin_config_development
+    weight: 4
     expanded: false
     enabled: true
   system__admin_config_media:
-    weight: 4
     menu_name: admin
     parent: system.admin_config
+    weight: 4
     expanded: false
     enabled: true
   system__admin_config_search:
-    weight: 8
     menu_name: admin
     parent: system.admin_config
+    weight: 8
     expanded: false
     enabled: true
   devel_generate__admin_config_generate:
-    weight: 6
     menu_name: admin
     parent: system.admin_config_development
+    weight: 6
     expanded: false
     enabled: false
   devel_generate__content:
-    weight: -15
-    parent: devel_generate.generate
     menu_name: admin
+    parent: devel_generate.generate
+    weight: -15
     expanded: false
     enabled: true
   devel_generate__media:
-    weight: -14
-    parent: devel_generate.generate
     menu_name: admin
+    parent: devel_generate.generate
+    weight: -14
     expanded: false
     enabled: true
   devel_generate__menu:
-    weight: -13
-    parent: devel_generate.generate
     menu_name: admin
+    parent: devel_generate.generate
+    weight: -13
     expanded: false
     enabled: true
   devel_generate__term:
-    weight: -12
-    parent: devel_generate.generate
     menu_name: admin
+    parent: devel_generate.generate
+    weight: -12
     expanded: false
     enabled: true
   devel_generate__user:
-    weight: -11
-    parent: devel_generate.generate
     menu_name: admin
+    parent: devel_generate.generate
+    weight: -11
     expanded: false
     enabled: true
   devel_generate__vocabulary:
-    weight: -10
-    parent: devel_generate.generate
     menu_name: admin
+    parent: devel_generate.generate
+    weight: -10
     expanded: false
     enabled: true
   system__admin_config_regional:
-    weight: -18
-    parent: system.admin_config_system
     menu_name: admin
+    parent: system.admin_config_system
+    weight: -18
     expanded: false
     enabled: true
   crop__overview_types:
-    weight: 7
     menu_name: admin
     parent: system.admin_config_media
+    weight: 7
     expanded: false
     enabled: true
   system__file_system_settings:
-    weight: 3
     menu_name: admin
     parent: system.admin_config_media
+    weight: 3
     expanded: false
     enabled: true
   entity__imageapi_optimize_pipeline__collection:
-    weight: 5
     menu_name: admin
     parent: system.admin_config_media
+    weight: 5
     expanded: false
     enabled: true
   entity__image_style__collection:
-    weight: 6
     menu_name: admin
     parent: system.admin_config_media
+    weight: 6
     expanded: false
     enabled: true
   media_library__settings:
-    weight: 1
     menu_name: admin
     parent: system.admin_config_media
+    weight: 1
     expanded: false
     enabled: true
   system__image_toolkit_settings:
-    weight: 4
     menu_name: admin
     parent: system.admin_config_media
+    weight: 4
     expanded: false
     enabled: true
   system__performance_settings:
-    weight: 1
     menu_name: admin
     parent: system.admin_config_development
+    weight: 1
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:entity__menu__add_link_form__admin':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.admin'
-    expanded: false
     weight: 0
-  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__devel':
+    expanded: false
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__devel':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.devel'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__footer':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__footer':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.footer'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__main':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__main':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.main'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__tools':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__tools':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.tools'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__account':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__menu__add_link_form__account':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.menu.edit_form.account'
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:system__theme_settings_theme__claro':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:system.theme_settings'
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:system__theme_settings_theme__olivero':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:system.theme_settings'
     weight: 0
     expanded: false
-  'admin_toolbar_tools__extra_links:views_ui__field_list':
     enabled: false
+  'admin_toolbar_tools__extra_links:views_ui__field_list':
     menu_name: admin
     parent: entity.field_storage_config.collection
     weight: 0
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:entity__block_content_type__edit_form__basic':
+    menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.block_content.collection'
-    menu_name: admin
-    enabled: true
-    expanded: false
     weight: 0
-  entity__node_type__collection:
-    weight: 1
-    menu_name: admin
-    parent: system.admin_structure
-    enabled: true
     expanded: false
-  field_ui__display_mode:
-    weight: 6
+    enabled: true
+  entity__node_type__collection:
     menu_name: admin
     parent: system.admin_structure
+    weight: 1
+    expanded: false
+    enabled: true
+  field_ui__display_mode:
+    menu_name: admin
+    parent: system.admin_structure
+    weight: 6
     expanded: false
     enabled: true
   entity__media_type__collection:
-    weight: 2
     menu_name: admin
     parent: system.admin_structure
+    weight: 2
     expanded: false
     enabled: true
   entity__menu__collection:
-    weight: 5
     menu_name: admin
     parent: system.admin_structure
+    weight: 5
     expanded: false
     enabled: true
   entity__taxonomy_vocabulary__collection:
-    weight: 4
     menu_name: admin
     parent: system.admin_structure
+    weight: 4
     expanded: false
     enabled: true
   entity__view__collection:
-    weight: 3
     menu_name: admin
     parent: system.admin_structure
+    weight: 3
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:view__files':
+    menu_name: admin
+    parent: system.admin_content
     weight: 6
-    menu_name: admin
-    parent: system.admin_content
-    enabled: false
     expanded: false
+    enabled: false
   'admin_toolbar_tools__extra_links:media_library':
-    weight: 5
     menu_name: admin
     parent: system.admin_content
+    weight: 5
     expanded: false
     enabled: false
   'admin_toolbar_tools__extra_links:media_page':
+    menu_name: admin
+    parent: system.admin_content
     weight: 3
-    enabled: true
-    menu_name: admin
-    parent: system.admin_content
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:add_media':
-    weight: 4
-    parent: system.admin_content
-    enabled: true
     menu_name: admin
+    parent: system.admin_content
+    weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:node__add':
     enabled: true
+  'admin_toolbar_tools__extra_links:node__add':
     menu_name: admin
     parent: system.admin_content
     weight: 2
     expanded: false
-  'admin_toolbar_tools__extra_links:node__add__article':
-    parent: 'admin_toolbar_tools.extra_links:node.add'
-    menu_name: admin
     enabled: true
-    expanded: false
-    weight: 0
-  'admin_toolbar_tools__extra_links:node__add__page':
-    parent: 'admin_toolbar_tools.extra_links:node.add'
+  'admin_toolbar_tools__extra_links:node__add__article':
     menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 0
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__page':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
     weight: 1
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:media__add__audio':
-    weight: 6
-    parent: 'admin_toolbar_tools.extra_links:add_media'
     menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    weight: 6
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:media__add__document':
-    weight: 7
-    parent: 'admin_toolbar_tools.extra_links:add_media'
     menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    weight: 7
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:media__add__image':
-    weight: 8
-    parent: 'admin_toolbar_tools.extra_links:add_media'
     menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    weight: 8
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:media__add__remote_video':
-    weight: 9
-    parent: 'admin_toolbar_tools.extra_links:add_media'
     menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    weight: 9
     expanded: false
     enabled: true
   'admin_toolbar_tools__extra_links:media__add__video':
-    weight: 10
-    parent: 'admin_toolbar_tools.extra_links:add_media'
     menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    weight: 10
     expanded: false
     enabled: true
   entity__media_bulk_config__collection:
-    weight: 2
     menu_name: admin
     parent: system.admin_config_media
-    enabled: true
+    weight: 2
     expanded: false
+    enabled: true
   entity__media_bulk__collection:
-    weight: 11
-    parent: 'admin_toolbar_tools.extra_links:add_media'
     menu_name: admin
-    enabled: true
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    weight: 11
     expanded: false
+    enabled: true
   'admin_toolbar_tools__extra_links:entity__entity_permissions_form__block_content__default__basic':
-    enabled: false
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.block_content_type.edit_form.basic'
     weight: 3
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__block_content_type__devel_load__basic':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__block_content_type__devel_load__basic':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.block_content_type.edit_form.basic'
     weight: 4
     expanded: false
-  'admin_toolbar_tools__extra_links:entity__block_content_type__delete_form__basic':
     enabled: false
+  'admin_toolbar_tools__extra_links:entity__block_content_type__delete_form__basic':
     menu_name: admin
     parent: 'admin_toolbar_tools.extra_links:entity.block_content_type.edit_form.basic'
     weight: 5
     expanded: false
+    enabled: false

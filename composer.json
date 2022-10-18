@@ -44,6 +44,7 @@
         "drupal/media_file_delete": "^1.2",
         "drupal/media_library_edit": "^2.3",
         "drupal/seckit": "^2",
+        "drupal/stage_file_proxy": "^1.2",
         "drush/drush": "^11",
         "enyo/dropzone": "^5.9",
         "oomphinc/composer-installers-extender": "^2"
