@@ -3,7 +3,7 @@ langcode: en
 status: false
 dependencies: {  }
 id: stg
-label: stg
+label: '3. stg'
 description: ''
 weight: 0
 stackable: false

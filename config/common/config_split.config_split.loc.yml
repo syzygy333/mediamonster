@@ -3,13 +3,14 @@ langcode: en
 status: false
 dependencies: {  }
 id: loc
-label: loc
+label: '1. loc'
 description: ''
 weight: 0
 stackable: false
 storage: folder
 folder: ../config/loc
 module:
+  stage_file_proxy: 0
   devel: 0
   devel_generate: 0
 theme: {  }
