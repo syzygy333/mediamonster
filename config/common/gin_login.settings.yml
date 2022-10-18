@@ -3,4 +3,5 @@ _core:
 logo:
   use_default: true
 brand_image:
-  use_default: true
+  use_default: false
+  path: 'public://rubaitul-azad-CU2NF0Jz5pI-unsplash.jpg'

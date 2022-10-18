@@ -7,6 +7,7 @@ local_task_enabled_entity_types:
   - media
   - node
   - taxonomy_term
+  - view
 track_enabled_source_entity_types:
   - block
   - node
@@ -16,7 +17,7 @@ track_enabled_source_entity_types:
   - image_style
   - media
   - taxonomy_term
-  - path_alias
+  - view
 track_enabled_target_entity_types:
   - block
   - node
@@ -26,6 +27,7 @@ track_enabled_target_entity_types:
   - image_style
   - media
   - taxonomy_term
+  - view
 track_enabled_plugins:
   - block_field
   - dynamic_entity_reference
