@@ -2,7 +2,7 @@ name: mediamonster
 recipe: drupal9
 
 config:
-  php: '7.4'
+  php: '8.1'
   webroot: web
   xdebug: false
   database: mariadb:10.3
@@ -18,7 +18,7 @@ services:
       - cd $LANDO_MOUNT && composer install
 
   nodejs:
-    type: node:14
+    type: node:16
     run:
       - cd $LANDO_MOUNT && npm install
       - cd $LANDO_MOUNT && npm run build

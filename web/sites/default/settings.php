@@ -54,6 +54,7 @@ $config['config_split.config_split.uat']['status'] = FALSE;
 $config['config_split.config_split.stg']['status'] = FALSE;
 $config['config_split.config_split.prd']['status'] = FALSE;
 
+
 /**
  * Lando environment settings
  */
@@ -88,6 +89,8 @@ if (getenv('LANDO_INFO')) {
   $config['config_split.config_split.uat']['status'] = FALSE;
   $config['config_split.config_split.stg']['status'] = FALSE;
   $config['config_split.config_split.prd']['status'] = FALSE;
+
+  $config['system.site']['uuid'] = 'f6953ac3-11b6-48d3-ab35-bb0995c5a72f';
 
   $databases['default']['default'] = [
     'database' => $lando_info['database']['creds']['database'],
