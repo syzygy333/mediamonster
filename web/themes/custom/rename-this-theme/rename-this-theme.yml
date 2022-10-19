@@ -1,0 +1,20 @@
+name: rename-this-theme
+type: theme
+description: ''
+core_version_requirement: ^9
+package: Custom
+base theme: stable9
+
+regions:
+  header: Header
+  primary_menu: Primary Menu
+  secondary_menu: Secondary Menu
+  hero: Hero
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: Sidebar
+  content_below: Content Below
+  footer: Footer

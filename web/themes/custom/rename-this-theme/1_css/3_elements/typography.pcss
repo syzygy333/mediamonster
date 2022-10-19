@@ -1,0 +1,10 @@
+:--typography {
+  font-size: calc(var(--fs__min) * 1rem);
+
+  @media (--sm-up) {
+    font-size: calc(
+      (var(--fs__min) * 1rem) + (var(--fs__max) - var(--fs__min)) *
+        ((100vw - var(--vp__min) * 1rem) / (var(--vp__max) - var(--vp__min)))
+    );
+  }
+}

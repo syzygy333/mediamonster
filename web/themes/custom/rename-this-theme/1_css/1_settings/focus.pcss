@@ -1,0 +1,21 @@
+[data-js-focus-visible] {
+  /* Remove typical pointer focus */
+  *:focus {
+    outline: none;
+  }
+
+  /* Add it for our data attribute, which should only detect keyboard interactions */
+  *[data-focus-visible-added] {
+    outline: var(--focus-style);
+    outline-offset: 2px;
+  }
+
+  /* Specific use cases */
+  /* Check 6_objects/buttons for design-specific use cases */
+  /* Search for [data-focus-visible-added] to find */
+}
+
+/* Disable focus border for all buttons */
+*:focus:not(:focus-visible) {
+  outline: none !important;
+}

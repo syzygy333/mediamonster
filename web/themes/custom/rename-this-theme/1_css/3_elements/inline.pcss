@@ -1,0 +1,87 @@
+a {
+}
+abbr {
+}
+br {
+}
+cite {
+}
+code {
+  background-color: var(--code);
+  border-radius: 3px;
+  color: var(--code--fg);
+  font-size: 87.5%;
+  padding: 0.125em 0.375em;
+}
+dfn {
+}
+em {
+}
+i {
+}
+kbd {
+  background-color: var(--gray-200);
+  border-top: 0.5px solid var(--gray-200);
+  border-left: 0.5px solid var(--gray-200);
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5),
+    1px 1px 2px rgba(255, 255, 255, 0.5) inset;
+  color: var(--gray-800);
+  padding: 0.125em 0.375em;
+}
+mark {
+}
+q {
+  &::before {
+    content: '“';
+  }
+  &::after {
+    content: '”';
+  }
+
+  q {
+    &::before {
+      content: '‘';
+    }
+    &::after {
+      content: '’';
+    }
+  }
+}
+samp {
+  background-color: var(--gray-100);
+  border-bottom: 0.5px solid var(--border-color);
+  color: var(--gray-700);
+}
+small {
+}
+span {
+}
+strong {
+}
+sub {
+}
+sup {
+}
+
+a,
+samp,
+code {
+  overflow-wrap: break-word;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+samp,
+kbd,
+code {
+  box-decoration-break: clone;
+  display: inline;
+  font-family: var(--ff__monospace);
+  font-size: 93.75%;
+  padding: 0 0.125em;
+  word-spacing: -0.25em;
+}

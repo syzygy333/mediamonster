@@ -1,0 +1,31 @@
+/* Can't use CSS vars in media declarations, but sass-like variables */
+/* DO work, so this is the only place they are used (postcss-simple-vars) */
+/* $bp-xs: 400px;
+$bp-sm: 500px;
+$bp-md: 700px;
+$bp-lg: 1000px;
+$bp-nav: 1200px;
+$bp-xl: 1440px;
+$bp-xxl: 1700px; */
+
+/* Uses postcss-custom-media and postcss-media-minmax */
+/* @custom-media --xs-up (width >= $bp-xs);
+@custom-media --sm-up (width >= $bp-sm);
+@custom-media --md-up (width >= $bp-md);
+@custom-media --lg-up (width >= $bp-lg);
+@custom-media --lg-down (width < $bp-lg);
+@custom-media --nav-up (width >= $bp-nav);
+@custom-media --xl-up (width >= $bp-xl);
+@custom-media --xxl-up (width >= $bp-xxl);
+@custom-media --lg-down (width < $bp-lg);
+@custom-media --sm-down (width < $bp-sm);
+
+@custom-media --xxs (width < $bp-xs);
+@custom-media --xs ($bp-xs <= width < $bp-sm);
+@custom-media --sm ($bp-sm <= width < $bp-md);
+@custom-media --md ($bp-md <= width < $bp-lg);
+@custom-media --lg ($bp-lg <= width < $bp-nav);
+@custom-media --nav ($bp-nav <= width < $bp-xl);
+@custom-media --xl ($bp-xl <= width < $bp-xxl);
+
+@custom-media --md-lg ($bp-md <= width < $bp-nav); */
