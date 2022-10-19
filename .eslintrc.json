@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "eslint-config-unobtrusive",
-    "eslint-config-prettier"
-  ],
+  "extends": ["eslint-config-unobtrusive", "eslint-config-prettier"],
   "root": true,
   "env": {
     "browser": true,
@@ -14,7 +11,7 @@
     "drupalSettings": true,
     "drupalTranslations": true,
     "jQuery": true,
-    "once": true,
+    "once": true
   },
   "settings": {
     "react": {

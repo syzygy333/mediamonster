@@ -1,7 +1,7 @@
 {
   "extends": [
     "stylelint-config-recommended",
-    "stylelint-a11y/recommended",
+    "@ronilaukkarinen/stylelint-a11y",
     "stylelint-config-prettier"
   ],
   "rules": {
