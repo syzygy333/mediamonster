@@ -45,6 +45,11 @@ $settings['entity_update_backup'] = TRUE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 /**
+ * Enable local development services.
+ */
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+
+/**
  * Disable all config splits by default; they'll be enabled by
  * their respective environments
  */
@@ -53,7 +58,6 @@ $config['config_split.config_split.dev']['status'] = FALSE;
 $config['config_split.config_split.uat']['status'] = FALSE;
 $config['config_split.config_split.stg']['status'] = FALSE;
 $config['config_split.config_split.prd']['status'] = FALSE;
-
 
 /**
  * Lando environment settings
