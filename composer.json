@@ -126,7 +126,11 @@
                 "web/modules/contrib/dropzonejs/composer.libraries.json"
             ]
         },
-        "patches": {},
+        "patches": {
+            "drupal/core": {
+                "Enable project": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe.patch"
+            }
+        },
         "preserve-paths": [],
         "drupal-scaffold": {
             "locations": {
